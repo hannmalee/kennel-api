@@ -1,19 +1,77 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
+  "animals": [
+      {
+          "id": 1,
+          "name": "Doodles",
+          "breed": "Poodle",
+          "customerId": 1,
+          "locationId": 2
+      },
+      {
+          "id": 2,
+          "name": "Millie",
+          "breed": "Great Dane",
+          "customerId": 3,
+          "locationId": 1
+      },
+      {
+          "id": 3,
+          "name": "Benji",
+          "breed": "Aussie",
+          "customerId": 2,
+          "locationId": 2
+      }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
+  "customers": [
+      {
+          "id": 1,
+          "name": "Hannah Hall",
+          "address": "7002 Chestnut Ct"
+      },
+      {
+          "id": 2,
+          "name": "David Palomeque",
+          "address": "1010 Main St"
+      },{
+          "id": 3,
+          "name": "Loren Meens",
+          "address": "2020 Apple Rd"
+      }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "employees": [
+      {
+          "id": 1,
+          "name": "Jeremy Bakker",
+          "locationId": 2
+      },
+      {
+          "id": 2,
+          "name": "Hannah Weeks",
+          "locationId": 2
+      },
+      {
+          "id": 3,
+          "name": "Rae McBee",
+          "locationId": 1
+      },
+      {
+          "id": 4,
+          "name": "Olivia St.John",
+          "locationId": 1
+      }
+  ], 
+
+  
+  "locations": [
+      {
+          "id": 1,
+          "name": "Nashville North",
+          "address": "8422 Johnson Pike"
+      },
+      {
+          "id": 2,
+          "name": "Nashville South",
+          "address": "209 Emory Drive"
+      }
+  ]
 }
